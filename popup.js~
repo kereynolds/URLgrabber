@@ -5,7 +5,7 @@
      // the return variable should only have one entry
      var activeTab = arrayOfTabs[0];
      var activeTabURL = arrayOfTabs[0].url;
-     var toGo = ''+activeTabURL  //add URL here
+     var toGo = 'http://ec2-23-21-114-205.compute-1.amazonaws.com/products/upload?source=chrome&product_url='+activeTabURL
      var newwindow= window.open(toGo, 'ShopGodt', 'height=500,width=700,resizable=no,screenX=350,screenY=350,scrollbars=yes');
      //newwindow.parent.blur();
   });
